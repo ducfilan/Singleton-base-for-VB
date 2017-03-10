@@ -3,7 +3,7 @@ A visual basic (VB) base class for Singleton pattern implementation including La
 
 # To use:
 
-```visualbasic
+```vb
 Imports [Singleton base namespace]
 Namespace YourNamespace
     Public Class YourClassName : Inherits SingletonBase(Of FtpTransfer)
