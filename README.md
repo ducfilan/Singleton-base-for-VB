@@ -6,7 +6,7 @@ A visual basic (VB) base class for Singleton pattern implementation including La
 ```vb
 Imports [Singleton base namespace]
 Namespace YourNamespace
-    Public Class YourClassName : Inherits SingletonBase(Of FtpTransfer)
+    Public Class YourClassName : Inherits SingletonBase(Of YourClassName)
         Private Sub New()
         End Sub
         ...
